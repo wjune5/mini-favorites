@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import AddFavoriteForm from './components/AddFavoriteForm';
 import FavoriteList from './components/FavoriteList';
 import { useDispatch } from 'react-redux';
