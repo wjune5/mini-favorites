@@ -9,10 +9,13 @@
 - [x] 本地存储持久化
 
 ## 技术
-React
+React 19.0.0
+
 Vite
-Redux Toolkit
-Tailwind CSS
+
+Redux Toolkit 2.7.0
+
+Tailwind CSS 4.1.4
 
 ## 如何运行项目
 1. 克隆仓库
