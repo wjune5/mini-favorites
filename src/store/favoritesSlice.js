@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
+// 初始化状态 - 获取本地收藏夹列表
 const loadState = () => {
     try {
         const serializedState = localStorage.getItem('favorites');
@@ -8,14 +9,9 @@ const loadState = () => {
         return [];
     }
 };
-// const initialState = {
-//     id: string,
-//     title: string,
-//     url: string,
-//     top: boolean,    // 是否置顶
-//     tag: string     // 可选分类标签
-// };
+
 const saveState = (state) => {
+    // save to localstorage 刷新不丢失
     localStorage.setItem('favorites', JSON.stringify(state));
 };
 
